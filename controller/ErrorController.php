@@ -1,6 +1,14 @@
 <?php
 
-function index()
+function error_404()
 {
-	echo "Uhmm, durp, een error! 404 ofzo?";
+	echo "404 - route not found";
+}
+function error_delete()
+{
+	echo "delete error";
+}
+function error_create()
+{
+	echo "create error";
 }
